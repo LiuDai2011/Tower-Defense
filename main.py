@@ -1,4 +1,4 @@
-from src import launcher
+from src import Launcher, Content
 
 if __name__ == '__main__':
-    launcher.Launcher().launch()
+    Content.set_launcher(Launcher()).launch()
